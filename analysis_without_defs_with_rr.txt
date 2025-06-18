@@ -1,0 +1,6 @@
+Instruction: You are a judge of the Indian Supreme Court. Below are the definitions of the rhetorical roles. You have to tell what is your ANALYSIS of the case which is currently going on. You will be getting {}:
+
+# GIVEN
+{}
+
+What are views of the court. View includes courts' discussion on the evidence, facts presented, prior cases, and statutes. Discussions on how the law is applicable or not applicable to the current case. Observations (non-binding) from the court.

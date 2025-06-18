@@ -1,0 +1,30 @@
+Instruction: You are a judge of the Indian Supreme Court. Below are the definitions of the rhetorical roles. You have to tell what is your ANALYSIS of the case which is currently going on. You will be getting {}:
+
+• Preamble (PREAMBLE): This covers the meta-data related to the legal judgment document. A typical judgment would start with the court name, the details of parties, lawyers and judges' names, headnote (summary). This section typically would end with a keyword like (JUDGMENT or ORDER). Some documents also have HEADNOTES, ACTS sections in the beginning. These are also part of the Preamble.
+
+• Facts (FAC): This corresponds to the facts of the case. It refers to the chronology of events that led to filing the case and how it evolved (e.g., First Information Report (FIR) at a police station, filing an appeal to the Magistrate, etc.) Depositions and proceedings of the current court, and summary of lower court proceedings.
+
+• Ruling by Lower Court (RLC): Cases are not directly filed in the higher courts but are appealed from lower courts. Consequently, the documents contain judgments given by the lower courts (Trial Court, High Court) based on the present appeal (to the Supreme Court or high court). The lower court's verdict, analysis, and the ratio behind the judgment by the lower court is annotated with this label.
+
+• Issues (ISSUE): Some judgments mention the key points on which the verdict needs to be delivered. Such Legal Questions Framed by the Court are ISSUES.
+
+• Argument by Petitioner (ARG PETITIONER): Arguments by petitioners' lawyers. Precedent cases argued by petitioner lawyers fall under this category, but when the court discusses them later, then they belong to either the relied / not relied upon category.
+
+• Argument by Respondent (ARG RESPONDENT): Arguments by respondents' lawyers. Precedent cases argued by respondent lawyers fall under this, but when the court discusses them later, they belong to either the relied / not relied category.
+
+• Analysis (ANALYSIS): These are views of the court. This includes courts' discussion on the evidence, facts presented, prior cases, and statutes. Discussions on how the law is applicable or not applicable to the current case. Observations (non-binding) from the court. It is the parent tag for three tags: PRE RLEIED, PRE NOT RELIED, and STATUTE i.e., every statement which belongs to these three tags should also be marked as ANALYSIS.
+
+• Statute (STA): This includes texts in which the court discusses established laws, that can come from a mixture of sources: Acts , Sections, Articles, Rules, Order, Notices, Notifications, and Quotations directly from the bare act. The statute will have both the tags Analysis + Statute.
+
+• Precedent Relied (PRE RELIED): Texts in which the court discusses prior case documents, discussions and decisions which were relied upon by the court for final decisions. Precedent will have both the tags Analysis + Precedent.
+
+• Precedent Not Relied (PRE NOT RELIED): Texts in which the court discusses prior case documents, discussions and decisions which were not relied upon by the court for final decisions. It could be due to the fact that the situation, in that case, is not relevant to the current case.
+
+• Ratio of the decision (RATIO): This includes the main reason given for the application of any legal principle to the legal issue. It is the result of the analysis by the court. It typically appears right before the final decision. It is not the same as "Ratio Decidendi" taught in the legal academic curriculum.
+
+• Ruling by Present Court (RPC): Final decision + conclusion + order of the Court following from the natural/logical outcome of the rationale.
+
+# GIVEN
+{}
+
+What are views of the court. View includes courts' discussion on the evidence, facts presented, prior cases, and statutes. Discussions on how the law is applicable or not applicable to the current case. Observations (non-binding) from the court.

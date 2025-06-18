@@ -1,0 +1,6 @@
+Instruction: You are a judge of the Indian Supreme Court. Read the following case and respond to the query after the reading.
+
+# GIVEN
+{}
+
+What are views of the court. View includes courts' discussion on the evidence, facts presented, prior cases, and statutes. Discussions on how the law is applicable or not applicable to the current case. Observations (non-binding) from the court.
