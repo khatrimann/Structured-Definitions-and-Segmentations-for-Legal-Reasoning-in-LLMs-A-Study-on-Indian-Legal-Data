@@ -46,7 +46,7 @@ We evaluate the impact of structured prompting using:
 
 ### 🧮 Metrics on PredEx Dataset
 
-![PredEx Dataset Table](figures/PreDex.png)
+![PredEx Dataset Table](figures/PredEx.png)
 *Table 3: Macro-F1, FPR, and FNR with and without structured prompting.*
 
 ---
